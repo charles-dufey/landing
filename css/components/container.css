@@ -1,0 +1,70 @@
+.container	{
+	margin: 0 auto;
+	margin-top: 80px;
+	height: 100vh;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 910px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 810px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 710px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 610px) {
+  .container {
+    width: 300px;
+  }
+}
+
+#form-container {
+	height: 100vh;
+	margin-top: 165px;
+}
+
+@media (max-width: 600px) {
+    #profiles-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%; /* Make cards take full width */
+    }
+}
+
+@media (max-width: 480px) {
+    #profiles-card {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .card {
+        flex: 1;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .card img {
+        display: none; /* Hide the images */
+    }
+}
